@@ -1,0 +1,41 @@
+body{
+	margin:0;
+	padding:0;
+}
+div{
+	border:1px solid red;
+}
+ul{
+	list-style:none;
+}
+li{
+	float:left;
+	margin-left:10px;
+	border:1px solid red;
+	padding:0 5px;
+	background-color:white;
+}
+ 
+
+a{
+	text-decoration:none;
+}
+#carousel{
+	position:relative;
+	width:500px;
+	height:300px;
+}
+img{
+	border:0;
+}
+#carousel img{
+	display:none;
+	position:absolute;
+	top:0;
+	left:0;
+}
+#car1{
+	position:absolute;
+	bottom:5px;
+	right:15px;
+}
